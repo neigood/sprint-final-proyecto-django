@@ -1,0 +1,10 @@
+{% extends 'users/base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+<div class="container">
+    <h1>Usted se ha desconectado</h1>
+    <h5><a href="{% url 'login' %}">Iniciar sesión de nuevo</a></h5>
+</div>
+{% endblock %}</title>

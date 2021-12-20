@@ -1,0 +1,73 @@
+{% extends 'users/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+<main>
+
+    <div class="container productos  mt-4">
+        <h2 class="text-center" id="evitarlo">servicio profesional de diagnostico</h2>
+
+        <div class="row mt-4">
+
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src={% static 'users/images/imagen2.png' %} alt="imagen" class="img-fluid">
+                <div class="info-producto bg-primary text-center text-light">
+                    <h3 class="text-center mb-2">diagnostico de equipos</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, itaque. Debitis repudiandae
+                        quae amet, dolor perspiciatis eum ex enim aperiam officiis incidunt dicta voluptates corrupti.
+                        dolor perspiciatis eum ex enim aperiam officiis incidunt dicta voluptates corrupti dolor
+                        perspiciatis eum ex enim aperiam
+                        Totam cupiditate molestias doloribus ea!</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src={% static 'users/images/imagen1.jpg' %} class="img-fluid">
+                <div class="info-producto bg-primary text-center text-light">
+                    <h3 class="text-center mb-2">reciclage de equipos electronicos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed non fugiat exercitationem porro
+                        maxime labore vitae hic eaque maiores ipsum, officia voluptas veniam dignissimos totam facere
+                        dolores? Quasi, nam debitis?</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-4">
+                <img src={% static 'users/images/imagen9.jpg' %} class="img-fluid">
+                <div class="info-producto bg-primary text-center text-light">
+                    <h3 class="text-center mb-2">respaldo de información</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsa id praesentium
+                        commodi nulla maiores, nam error quisquam earum modi ad, atque voluptatibus quos eligendi
+                        assumenda, possimus eaque debitis quod?</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-4">
+                <img src={% static 'users/images/imagen6.jpg' %} class="img-fluid">
+                <div class="info-producto bg-primary text-center text-light">
+                    <h3 class="text-center mb-2">Civer seguridad</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aut ullam! Minus ea impedit
+                        voluptatem eum consequuntur non vel omnis, dignissimos amet quod sint modi cupiditate temporibus
+                        aut harum
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-4">
+                <img src={% static 'users/images/imagen5.jpg' %} class="img-fluid">
+                <div class="info-producto bg-primary text-center text-light">
+                    <h3 class="text-center mb-2">asesoria de criptomoneda</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio ipsam mollitia itaque, velit
+                        perferendis aperiam quia id dolorem quas ab! Reprehenderit nihil nisi ducimus tempora earum
+                        ipsum necessitatibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock content %}

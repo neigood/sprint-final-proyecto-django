@@ -1,0 +1,13 @@
+{% extends 'users/base.html' %}
+{% load static %}
+{% block content %}
+
+<h1>Registra tu opinion</h1>
+<form action="" method='POST'>
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button>Editar</button>
+</form>
+
+
+{% endblock content %}
